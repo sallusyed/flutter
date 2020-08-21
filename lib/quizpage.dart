@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:convert';
 import 'dart:math';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:quizstar/resultpage.dart';
@@ -93,19 +94,19 @@ class _quizpageState extends State<quizpage> {
   // to create the array elements randomly use the dart:math module
   // -----     CODE TO GENERATE ARRAY RANDOMLY
 
-  genrandomarray(){
+  genrandomarray() {
     var distinctIds = [];
     var rand = new Random();
-      for (int i = 0; ;) {
-      distinctIds.add(rand.nextInt(10));
-        random_array = distinctIds.toSet().toList();
-        if(random_array.length < 10){
-          continue;
-        }else{
-          break;
-        }
+    for (int i = 1;;) {
+      distinctIds.add(rand.nextInt(15) + 1);
+      random_array = distinctIds.toSet().toList();
+      if (random_array.length < 15) {
+        continue;
+      } else {
+        break;
       }
-      print(random_array);
+    }
+    print(random_array);
   }
 
   //   var random_array;
@@ -162,7 +163,7 @@ class _quizpageState extends State<quizpage> {
     canceltimer = false;
     timer = 30;
     setState(() {
-      if (j < 10) {
+      if (j < 15) {
         i = random_array[j];
         j++;
       } else {
@@ -180,7 +181,6 @@ class _quizpageState extends State<quizpage> {
   }
 
   void checkanswer(String k) {
-    
     // in the previous version this was
     // mydata[2]["1"] == mydata[1]["1"][k]
     // which i forgot to change
@@ -268,32 +268,31 @@ class _quizpageState extends State<quizpage> {
               child: Container(
                 padding: EdgeInsets.all(15.0),
                 alignment: Alignment.bottomLeft,
-                child: Text(
-                  mydata[0][i.toString()],
-                  style: TextStyle(
-                    fontSize: 16.0,
-                    fontFamily: "Quando",
+                child: Image.asset(mydata[0][i.toString()]),
+                // mydata[0][i.toString()],
+//                  style: TextStyle(
+//                    fontSize: 16.0,
+//                    fontFamily: "Quando",
+//                  ),
+              ),
+            ),
+            Expanded(
+              flex: 6,
+              child: AbsorbPointer(
+                absorbing: disableAnswer,
+                child: Container(
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: <Widget>[
+                      choicebutton('a'),
+                      choicebutton('b'),
+                      choicebutton('c'),
+                      choicebutton('d'),
+                    ],
                   ),
                 ),
               ),
             ),
-            Expanded(
-                flex: 6,
-                child: AbsorbPointer(
-                  absorbing: disableAnswer,
-                    child: Container(
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: <Widget>[
-                        choicebutton('a'),
-                        choicebutton('b'),
-                        choicebutton('c'),
-                        choicebutton('d'),
-                      ],
-                    ),
-                  ),
-                ),
-              ),
             Expanded(
               flex: 1,
               child: Container(
@@ -316,3 +315,25 @@ class _quizpageState extends State<quizpage> {
     );
   }
 }
+
+//Widget _buildRow(WordPair pair) {
+//  return ListTile(
+//    title: Text(
+//      'Title of messages comes here',
+//      style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
+//    ),
+//    subtitle: Text(
+//      pair.asPascalCase,
+//      style: _font,
+//    ),
+//    leading: ConstrainedBox(
+//      constraints: BoxConstraints(
+//        minWidth: 44,
+//        minHeight: 44,
+//        maxWidth: 44,
+//        maxHeight: 44,
+//      ),
+//      child: Image.asset('assets/message_lock.png', fit: BoxFit.cover),
+//    ),
+//  );
+//}

@@ -1,88 +1,129 @@
 [
     {
-        "1": "What Will Be The Output Of the Following Code ?\na = \"p\" * 3\nprint(a)",
-        "2": "Which function finds out the Variable type in Python ?",
-        "3": "Which of the following keyword is used to define a function in Python ?",
-        "4": "Which of the following is a print Function in Python ?",
-        "5": "Which function finds out the Variable type in Python ?",
-        "6": "Which of the following keyword is used to define a function in Python ?",
-        "7": "Which function finds out the Variable type in Python ?",
-        "8": "Which of the following keyword is used to define a function in Python ?",
-        "9": "Which function finds out the Variable type in Python ?",
-        "10": "Which of the following keyword is used to define a function in Python ?"
+        "1": "images/friends/CarolWillick.jpg",
+        "2": "images/friends/Chandlerbing.jpg",
+        "3": "images/friends/Dr.RichardBurke.jpg",
+        "4": "images/friends/Joey.jpg",
+        "5": "images/friends/EmilyWaltham.jpg",
+        "6": "images/friends/EmmaGeller.jpg",
+        "7": "images/friends/Gunther.jpg",
+        "8": "images/friends/JackGeller.jpg",
+        "9": "images/friends/JaniceLitman-Goralnik.jpg",
+        "10": "images/friends/Ross-Geller.jpg",
+        "11": "images/friends/PhoebeBuffay.jpg",
+        "12": "images/friends/MikeHannigan.jpg",
+        "13": "images/friends/Monica.jpg",
+        "14": "images/friends/Mr.Heckles.jpg",
+        "15": "images/friends/RachelGreen.jpg"
     },
     {
         "1": {
-            "a": "pp",
-            "b": "ppp",
-            "c": "3p",
-            "d": "p3"
+            "a": "Monica Geller",
+            "b": "Judy Geller",
+            "c": "Carol Willick",
+            "d": "Susan Bunch"
         },
         "2": {
-            "a": "typedef",
-            "b": "typeof",
-            "c": "type",
-            "d": "find"
+            "a": "Mike",
+            "b": "Chandler bing",
+            "c": "Tribbiani",
+            "d": "Green"
         },
         "3": {
-            "a": "func",
-            "b": "def",
-            "c": "void",
-            "d": "function"
+            "a": "Bing",
+            "b": "Ross",
+            "c": "Dr.Burke",
+            "d": "Hannigan"
         },
         "4": {
-            "a": "cout",
-            "b": "print",
-            "c": "println",
-            "d": "stderr"
+            "a": "Gunther",
+            "b": "Frank",
+            "c": "Ross",
+            "d": "Tribbiani"
         },
         "5": {
-            "a": "typedef",
-            "b": "typeof",
-            "c": "type",
-            "d": "find"
+            "a": "Emily",
+            "b": "Green",
+            "c": "Phoebe",
+            "d": "Janice"
         },
         "6": {
-            "a": "func",
-            "b": "def",
-            "c": "void",
-            "d": "function"
+            "a": "Ben Geller",
+            "b": "Monica Geller",
+            "c": "Emma Geller",
+            "d": "Judy Geller"
         },
         "7": {
-            "a": "typedef",
-            "b": "typeof",
-            "c": "type",
-            "d": "find"
+            "a": "Pete",
+            "b": "Gunther",
+            "c": "Paul",
+            "d": "Heckles"
         },
         "8": {
-            "a": "func",
-            "b": "def",
-            "c": "void",
-            "d": "function"
+            "a": "Jack Geller",
+            "b": "Ben Geller",
+            "c": "Ryan",
+            "d": "Burke"
         },
         "9": {
-            "a": "typedef",
-            "b": "typeof",
-            "c": "type",
-            "d": "find"
+            "a": "Melissa",
+            "b": "Janice",
+            "c": "Hosenstein",
+            "d": "Ursula"
         },
         "10": {
-            "a": "func",
-            "b": "def",
-            "c": "void",
-            "d": "function"
+            "a": "Ross",
+            "b": "Gunther",
+            "c": "Richard",
+            "d": "Roy"
+        },
+        "11": {
+            "a": "Emily",
+            "b": "Phoebe",
+            "c": "Monica",
+            "d": "Cox"
+        },
+        "12": {
+            "a": "Pete Becker",
+            "b": "Chandler",
+            "c": "Mike Hannigan",
+            "d": "Paul"
+        },
+        "13": {
+            "a": "Monica Geller",
+            "b": "Jill Geller",
+            "c": "Melissa",
+            "d": "Sarah"
+        },
+        "14": {
+            "a": "Richard",
+            "b": "Ross",
+            "c": "Gary",
+            "d": "Heckles"
+        },
+        "15": {
+            "a": "Jill Green",
+            "b": "Rachel Green",
+            "c": "Emma Green",
+            "d": "Ellen"
         }
+
     },
     {
-        "1": "ppp",
-        "2": "type",
-        "3": "def",
-        "4": "print",
-        "5": "type",
-        "6": "def",
-        "7": "type",
-        "8": "def",
-        "9": "type",
-        "10": "def"
+        "1": "Carol Willick",
+        "2": "Chandler bing",
+        "3": "Dr.Burke",
+        "4": "Tribbiani",
+        "5": "Emily",
+        "6": "Emma Geller",
+        "7": "Gunther",
+        "8": "Jack Geller",
+        "9": "Janice",
+        "10": "Ross",
+        "11": "Phoebe",
+        "12": "Mike Hannigan",
+        "13": "Monica Geller",
+        "14": "Heckles",
+        "15": "Rachel Green"
     }
 ]
